@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: olist
+    database: olist-db
+    schema: dev
+    tables:
+      - name: costumer_dataset
+      - name: geolocation_dataset
+      - name: order_items_dataset
+      - name: order_payments_dataset
+      - name: orders_dataset
+      - name: product_category_name_dataset
+      - name: products_dataset
+      - name: sellers_dataset
+
