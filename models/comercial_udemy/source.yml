@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: sources
+    database: dbtdatalake
+    schema: udemy
+    tables:
+      - name: categorias
+      - name: cliente
+      - name: detalhamento_pedidos
+      - name: funcionarios
+      - name: frete
+      - name: fornecedores
+      - name: pedidos
+      - name: produtos
+
