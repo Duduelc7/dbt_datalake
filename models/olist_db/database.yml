@@ -13,4 +13,4 @@ sources:
       - name: product_category_name_dataset
       - name: products_dataset
       - name: sellers_dataset
-
+      - name: review_dataset
