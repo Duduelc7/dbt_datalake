@@ -1,3 +1,4 @@
+
 select
     distinct product_id as id_produto,
     product_category_name as categoria_produto,
@@ -7,7 +8,4 @@ select
     coalesce(cast(product_width_cm as int),0)  largura_produto_cm
 from {{ source("olist", "products_dataset") }}
 where product_category_name is not null
-
-
-
 
